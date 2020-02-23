@@ -24,6 +24,8 @@ class CreateArticleSoldTable extends Migration
             $table->boolean('status');
             $table->date('guaranty_end');
             $table->timestamps();
+            $table->charset = 'utf8mb4';
+            $table->collation = 'utf8mb4_spanish_ci';
         });
     }
 

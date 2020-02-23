@@ -16,4 +16,11 @@
 //     return view('welcome');
 // });
 
-Route::resource('/', 'UsersController');
+Route::resource('/', 'HomeController');
+
+  Route::group(['prefix' => 'admin'], function () {
+    // Route::prefix('admin')->group(function () {
+  Route::get('/', 'AdminController@index')->name('admin'); 
+  Route::get('permission', 'PermissionController@index')->name('view_permission'); 
+  Route::get('permission/create', 'PermissionController@create')->name('create_permission');  
+});

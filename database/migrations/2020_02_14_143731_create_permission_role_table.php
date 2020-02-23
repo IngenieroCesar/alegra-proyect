@@ -20,7 +20,6 @@ class CreatePermissionRoleTable extends Migration
             $table->unsignedInteger('permission_id');
             $table->foreign('permission_id', 'fk_permissionrole_permission')->references('id')->on('permission')->onDelete('restrict')->onUpdate('restrict');
             $table->boolean('status');
-            $table->timestamps();
         });
     }
 

@@ -12,6 +12,6 @@ class PermissionTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Permission::class)->times(50)->create();
+        factory(Permission::class)->times(20)->create();
     }
 }
