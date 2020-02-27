@@ -48,6 +48,9 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contacto</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#tecnologies">Tecnología</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -203,6 +206,46 @@
       </div>
     </div>
   </section>
+
+    <!-- Tecnologies Section -->
+  <section class="page-section bg-dark text-white" id="tecnologies">
+    <div class="container">
+      <h2 class="text-center mt-0">Tecnologia</h2>
+      <hr class="divider my-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-truck-loading mb-4"></i>
+            <h3 class="h4 mb-2">Sistema de Inventario</h3>
+            <p class="text-muted mb-0">Obten control de tú inventario en tiempo real, control de compras y ventas!</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-project-diagram mb-4"></i>
+            <h3 class="h4 mb-2">Procesos</h3>
+            <p class="text-muted mb-0">Controla los avances de los procesos de tu empresa.</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-pencil-ruler mb-4"></i>
+            <h3 class="h4 mb-2">Editor Web</h3>
+            <p class="text-muted mb-0">Controla tu sitio web, modificando el contenido desde la plataforma!</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 text-center">
+          <div class="mt-5">
+            <i class="fas fa-4x fa-shopping-cart mb-4"></i>
+            <h3 class="h4 mb-2">PrestaShop</h3>
+            <p class="text-muted mb-0">Consume los datos de tu cuenta PrestaShop desde AdmiApp!</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
 
   <!-- Footer -->
   <footer class="bg-light py-5">
