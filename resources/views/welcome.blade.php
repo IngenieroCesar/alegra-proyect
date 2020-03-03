@@ -11,17 +11,17 @@
   <title>Wellcome AdMiapp </title>
 
   <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="{{ asset('web/vendor/fontawesome-free/css/all.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('web/vendor/fontawesome-free/css/all.css') }}">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 
   <!-- Plugin CSS -->
-  <link rel="stylesheet" href="{{ asset('web/vendor/magnific-popup/magnific-popup.css') }}">
+  <link rel="stylesheet" href="{{ secure_asset('web/vendor/magnific-popup/magnific-popup.css') }}">
 
   <!-- Theme CSS - Includes Bootstrap -->
-  <link rel="stylesheet" href="{{ asset('web/css/creative.css') }}">
-  
+  <link rel="stylesheet" href="{{ secure_asset('web/css/creative.css') }}">
+
 
 </head>
 
@@ -132,14 +132,14 @@
       <a class="btn btn-light btn-xl" href="{{ url('admin') }}">Ingresar</a>
     </div>
   </section>
-  
+
   <!-- Portfolio Section -->
   <section id="portfolio">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="{{ asset('web/img/portfolio/fullsize/1.jpg') }}">
-            <img class="img-fluid" src="{{ asset('web/img/portfolio/thumbnails/1.jpg') }}" alt="">
+          <a class="portfolio-box" href="{{ secure_asset('web/img/portfolio/fullsize/1.jpg') }}">
+            <img class="img-fluid" src="{{ secure_asset('web/img/portfolio/thumbnails/1.jpg') }}" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -151,8 +151,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="{{ asset('web/img/portfolio/fullsize/2.jpg') }}">
-            <img class="img-fluid" src="{{ asset('web/img/portfolio/thumbnails/2.jpg')}}" alt="">
+          <a class="portfolio-box" href="{{ secure_asset('web/img/portfolio/fullsize/2.jpg') }}">
+            <img class="img-fluid" src="{{ secure_asset('web/img/portfolio/thumbnails/2.jpg')}}" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -164,8 +164,8 @@
           </a>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="{{ asset('web/img/portfolio/fullsize/3.jpg')}}">
-            <img class="img-fluid" src="{{ asset('web/img/portfolio/thumbnails/3.jpg')}}" alt="">
+          <a class="portfolio-box" href="{{ secure_asset('web/img/portfolio/fullsize/3.jpg')}}">
+            <img class="img-fluid" src="{{ secure_asset('web/img/portfolio/thumbnails/3.jpg')}}" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
                 Category
@@ -188,8 +188,8 @@
         <div class="col-lg-8 text-center">
           <h2 class="mt-0">¡Mantengámonos en contacto!</h2>
           <hr class="divider my-4">
-          <p class="text-muted mb-5">¿Listo para comenzar su próximo proyecto con nosotros? 
-            Llámenos o envíenos un correo electrónico y nos pondremos en contacto con usted 
+          <p class="text-muted mb-5">¿Listo para comenzar su próximo proyecto con nosotros?
+            Llámenos o envíenos un correo electrónico y nos pondremos en contacto con usted
             lo antes posible!</p>
         </div>
       </div>
@@ -255,15 +255,15 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="{{ asset('web/vendor/jquery/jquery.js')}}"></script>
-  <script src="{{ asset('web/vendor/bootstrap/js/bootstrap.bundle.js')}}"></script>
+  <script src="{{ secure_asset('web/vendor/jquery/jquery.js')}}"></script>
+  <script src="{{ secure_asset('web/vendor/bootstrap/js/bootstrap.bundle.js')}}"></script>
 
   <!-- Plugin JavaScript -->
-  <script src="{{ asset('web/vendor/jquery-easing/jquery.easing.js')}}"></script>
-  <script src="{{ asset('web/vendor/magnific-popup/jquery.magnific-popup.js')}}"></script>
+  <script src="{{ secure_asset('web/vendor/jquery-easing/jquery.easing.js')}}"></script>
+  <script src="{{ secure_asset('web/vendor/magnific-popup/jquery.magnific-popup.js')}}"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="{{ asset('web/js/creative.js')}}"></script>
+  <script src="{{ secure_asset('web/js/creative.js')}}"></script>
 
 </body>
 
