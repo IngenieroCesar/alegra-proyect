@@ -1,0 +1,6 @@
+
+
+label.require:after{
+  content: " *";
+  color: firebrick;
+}
